@@ -38,9 +38,9 @@ text_to_bytes = text_if_str(to_bytes)
 # watch for updates to signature format
 class SignableMessage(NamedTuple):
     """
-    A message compatible with EIP-191_ that is ready to be signed.
+    A message compatible with EIP-191 that is ready to be signed.
 
-    The properties are components of an EIP-191_ signable message. Other message formats
+    The properties are components of an EIP-191 signable message. Other message formats
     can be encoded into this format for easy signing. This data structure doesn't need to
     know about the original message format. For example, you can think of
     EIP-712 as compiling down to an EIP-191 message.
